@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Catamaran:wght@300&family=Teko:wght@300&display=swap'); /* Arimo, Teko, Catamaran */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+ 
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c3233;
+  height: 70px;
+}
+
+nav ul img {
+  width: 100px;
+  margin-left: 1rem;
+}
+
+li {
+  float: left;
+  width: 200px;
+  font-family: 'Catamaran', sans-serif;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: black;
+  transition: ease-in 0.15s;
+  border-width: inherit;
+}
+
+h3 {
+  font-family: 'Teko', sans-serif;
+  font-size: 35px;
+}
+
+p {
+  font-family: 'Arimo', sans-serif;
+}
+
+main {
+  width: 960px;
+  margin: 30px auto 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+footer {
+  background-color: #2c3233;
+  height: 90px;
+}
+
+main img {
+  margin-bottom: 30px;
+}
+
+article {
+  width: 450px;
+  height: 400px;
+}
+
+main article a {
+  color: whitesmoke;
+  padding: 15px 30px;
+  background-color: black;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+  width:max-content;
+
+}
+
+main article a:hover{
+  font-size: larger;
+  background-color:peru;
+  transition: ease-in 0.50s;
+}
+
+article section {
+  height: 309px;
+  overflow: auto;
+}
